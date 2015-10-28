@@ -1,15 +1,23 @@
+package ntou.cs.java2015.yuhang;
+enum ColorType {
+    BLUE, GREEN, RED, YELLOW;
+}
 
-public class UNOGame {//組合UNO遊戲的牌（顏色+數字or特殊卡）
+enum UNOType {
+    NUMBER,SKIP, DRAW2
+}
 
-    private final UNOType number;//宣告一個UNOType物件叫number
-    private final ColorType color;//宣告一個ColorType物件叫color
-
-    public UNOGame(ColorType color, UNOType number) {//給定顏色(color)跟數字(number)的建構子
-        this.color = color;
-        this.number = number;
+public class UNOGame{
+    private final UNOType type;
+    private final ColorType color;
+    private final int number;
+    public UNOGame(UNOType type,ColorType color,int number) {
+        this.type=type;
+        this.color=color;
+        this.number=number;
     }
 
-    String getName() {//自定義一類似toString的功能，可回傳一張完整牌名
-        return color.getSymbol() + " " + number.getSymbol();
+    String getName() {
+        return color+" "+(type==UNOType.NUMBER?number:type);
     }
 }
