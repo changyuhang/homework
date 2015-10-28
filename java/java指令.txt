@@ -1,0 +1,4 @@
+javac -encoding UTF8 -d 
+java -Dfile.encoding=UTF8
+ex:javac -encoding UTF8 -d C:\Users\yuhang\Desktop\homework\java\ UNOGameTest.java
+java -Dfile.encoding=UTF8 UNOGameTest
