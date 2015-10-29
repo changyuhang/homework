@@ -2,3 +2,8 @@
 *.rar
 *.zip
 *.exe
+*.sln
+*.sdf
+*.opensdf
+*.vcxproj
+*.tlog
