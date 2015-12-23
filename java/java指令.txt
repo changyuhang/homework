@@ -2,3 +2,6 @@ javac -encoding UTF8 -d
 java -Dfile.encoding=UTF8
 ex:javac -encoding UTF8 -d C:\Users\yuhang\Desktop\homework\java\ UNOGameTest.java
 java -Dfile.encoding=UTF8 UNOGameTest
+
+javac -classpath jsoup-1.8.3.jar -encoding UTF8 -d C:\Users\yuhang\Desktop\homework\java\4 *.java
+java -Dfile.encoding=UTF8 ntou.cs.java2015.yuhang.WeatherViewerTest
