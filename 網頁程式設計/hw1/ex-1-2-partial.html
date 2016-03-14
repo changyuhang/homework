@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ex-1-2</title>
+    </head>
+    <body onLoad="document.myform.fullname.focus()">
+        <form name = "myform" method = "get" action = "http://www.ntou.edu.tw">
+            <p>
+                <label>Your name:
+                <input name = "fullname" type = "text"
+                    size = "40" />
+                </label>
+            </p>
+            <p>
+                <label>Your email:
+                    <input name = "email" placeholder ="name@domain.com" type = "email"required>
+                (name@domain.com)
+                </label>
+            </p>
+            <p>
+                <label>Your homepage's URL:
+                    <input name = "url" placeholder = "http://www.domainname.com" type = "url">
+                (http://www.domainname.com)
+                </label>
+            </p>
+            <p>
+                <label>Your birthday date:
+                    <input name = "date"value = "年/ 月/日" type = "datetime">
+                (yyyy-mm-dd)
+                </label>
+            </p>
+            <p>
+                <strong><em>Check off all of the characteristics that
+                you enjoyed about the college:</em></strong><br />
+            </p>
+            <p>
+                <input type="checkbox" name ="enjoy" value ="campus">
+                <label>Campus
+                </label>
+                <input type="checkbox" name ="enjoy" value ="student">
+                <label>Students
+                </label>
+                <input type="checkbox" name ="enjoy" value ="location">
+                <label>Location
+                </label>
+            </p>
+            <p><strong><em>How did you become interested in
+                our college?</em></strong><br />
+            </p>
+            <p>
+                <input type="radio" name ="interested" value ="Friends">
+                <label>Friends
+                </label>
+                <input type="radio" name ="interested" value ="television">
+                <label>Television
+                </label>
+                <input type="radio" name ="interested" value ="internet">
+                <label>Internet
+                </label>
+            </p>
+            <p>
+              <input type = "submit" value = "submit">
+              <input type = "reset" value = "clear">
+            </p>
+        </form>
+    </body>
+</html>
