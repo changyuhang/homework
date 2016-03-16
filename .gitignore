@@ -8,7 +8,10 @@
 *.vcxproj
 *.tlog
 *.jpg
-專題作業\*\Debug\
-專題作業\*\Release\
-專題作業\Debug\
-專題作業\.vs\
+*.png
+*.ilk
+*.pdb
+*.obj
+*.log
+*.idb
+*.suo
