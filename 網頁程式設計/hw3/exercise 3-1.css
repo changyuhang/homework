@@ -2,10 +2,15 @@ body{
   background-image: url(NTOU_logo.jpg);
   background-repeat: no-repeat;
   background-position: bottom left;
+  background-attachment: fixed;
+}
+@font-face {
+font-family: wt;
+src: url(wt021.ttf);
 }
 p{
   font-size: 28px;
-  font-family: wt021.ttf;
+  font-family: wt;
   height: 150px;
   width : 40%;
   overflow: scroll;
