@@ -3,8 +3,8 @@
 #include<cmath>
 #define h imginital->height
 #define w imginital->width
-#define throughput_sc 30
-#define throughput 60
+#define throughput_sc 40
+#define throughput 80
 #define nh cvRound(abs(h*vcos)+abs(w*vsin))
 #define nw cvRound(abs(w*vcos)+abs(h*vsin))
 #define fh imgfinal->height
@@ -77,7 +77,7 @@ void main() {
 			int imgfinal_imgData = imgfinal->widthStep * y + x * 3;
 			int imganswer_imgData = imganswer->widthStep *ny + nx * 3;
 			if (x < 0 || y < 0 || x >= imgfinal->width || y >= imgfinal->height) {
-				imganswer->imageData[imganswer_imgData] = 193; imganswer->imageData[imganswer_imgData + 1] = 182; imganswer->imageData[imganswer_imgData + 2] = 255;
+				imganswer->imageData[imganswer_imgData] = 127; imganswer->imageData[imganswer_imgData + 1] = 127; imganswer->imageData[imganswer_imgData + 2] = 127;
 			}
 			else {
 				imganswer->imageData[imganswer_imgData] = imgfinal->imageData[imgfinal_imgData];
