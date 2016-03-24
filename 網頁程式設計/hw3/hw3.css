@@ -1,0 +1,17 @@
+body{
+  background-image: url(NTOU_logo.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+p{
+  font-size: 28px;
+  font-family: wt021.ttf;
+  height: 150px;
+  width : 40%;
+  overflow: scroll;
+  text-align: left;
+  float:left;
+}
+p:first-letter{
+  font-size: 200%;
+}
