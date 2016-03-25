@@ -1,0 +1,14 @@
+table         { width: 300px;
+                border-collapse:collapse;
+                background-color: lightblue;
+                font-family: Microsoft YaHei;
+                }
+table, td, th { border: 1px solid black;
+                padding: 4px; }
+th            { text-align: center;
+                color: white;
+                background-color: darkblue; }
+td{
+background-color:lightblue;
+text-align:right;
+}
