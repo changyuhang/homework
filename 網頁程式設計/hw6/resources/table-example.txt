@@ -1,0 +1,12 @@
+Number of people who earned salaries in the following ranges:<br />
+<table><tbody>
+<tr><th>(a) $200-$299</th><td>0</td></tr>
+<tr><th>(b) $300-$399</th><td>0</td></tr>
+<tr><th>(c) $400-$499</th><td>0</td></tr>
+<tr><th>(d) $500-$599</th><td>0</td></tr>
+<tr><th>(e) $600-$699</th><td>0</td></tr>
+<tr><th>(f) $700-$799</th><td>0</td></tr>
+<tr><th>(g) $800-$899</th><td>0</td></tr>
+<tr><th>(h) $900-$999</th><td>0</td></tr>
+<tr><th>(i) $1000 and over</th><td>0</td></tr>
+</tbody></table>
